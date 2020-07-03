@@ -4,6 +4,8 @@
 <head>
     <title>My Blog</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital@1&family=Lato&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -13,10 +15,25 @@
             <li><a href="#contact" class="nav-link">Contact</a></li>
             <li><a href="#about" class="nav-link">About</a></li>
             <li><a href="index.html" class="nav-link">Main</a></li>
+            <li><a href="https://isitchristmas.com/" class="nav-link">???</a></li>
         </ul>
     </nav>
-    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3nVvUtEmCjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <a class="twitter-timeline" href="https://twitter.com/2ManyFoxes?ref_src=twsrc%5Etfw">Tweets by 2ManyFoxes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- holds externally linked videos -->
+    <div class="video-container">
+        <!-- main video -->
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3nVvUtEmCjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <!-- Twitter Video -->
+        <div class="twitter-container">
+            <a class="twitter-timeline" href="https://twitter.com/2ManyFoxes?ref_src=twsrc%5Etfw">Tweets by 2ManyFoxes</a>
+        </div>
+    </div>
+
+    <footer>  
+        <h3>&copy; Kirsten Vastine 2020 </h3>
+      </footer>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 
 </html>
